@@ -1,4 +1,4 @@
-# Lexicographical Analysis ( Separation by Special Character and Spaces)
+# Lexical Analysis ( Separation by Special Character and Spaces)
 
 ## Rules
 - If any special character are their then print it in single line
@@ -74,7 +74,7 @@
 		}
     }
 ```
-### Displaying after the Lexicographical Analysis
+### Displaying after the Lexical Analysis
 - Print characters until you get a `space`
 - Then Print a new line
 - Update Iteration for continues spaces or new_lines
