@@ -7,7 +7,8 @@ int isSpecialCharacter(char ch)
 	if (ch >= 'A' && ch <= 'Z') return 0;
 	if (ch >= '0' && ch <= '9') return 0;
 	if (ch == '"') return 0;
-	return 1;
+    if (ch == '.') return 0;
+ 	return 1;
 }
 int main()
 {

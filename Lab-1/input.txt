@@ -3,6 +3,6 @@ int main()
     int alice,bob,c;
     bob=9;
     c=120;
-    alice=((bob+c+204)+24);
+    alice=((bob+c+204)+24.45);
     return 0;
 }
