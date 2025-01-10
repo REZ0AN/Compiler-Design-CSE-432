@@ -165,7 +165,7 @@ For each token:
 
 ```cpp
 bool isKeyword(const string &s) {
-    set<string> keywords = {"int", "float", "double", "char", "string", "bool", "if", "else", "for", "while","elseif", "do", "return", "break", "continue", "switch", "case", "default", "void", "main"};
+    set<string> keywords = {"int", "float", "double", "char", "string", "bool", "if", "true", "false", "else", "for", "while","elseif", "do", "return", "break", "continue", "switch", "case", "default", "void", "main"};
     return keywords.find(s) != keywords.end();
 }
 ```
@@ -382,9 +382,9 @@ int main() {
 
 ```bash
 functions: add10() inc() main() 
-keywords: bool else elseif float if int return string 
+keywords: bool else elseif false float if int return string 
 numbers: 0 0.0 0.01 1 10 
 operators: ! != & && * + += - -= < << <= = == > >= >> | || 
 others: " ( ) , : ; ? { } 
-variables: OK a ab10 abc b carry false i k ss under_score 
+variables: OK a ab10 abc b carry i k ss under_score 
 ```

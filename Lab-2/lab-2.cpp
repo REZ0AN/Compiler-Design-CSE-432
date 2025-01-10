@@ -14,7 +14,7 @@ bool isSpecialCharacter(char ch) {
 
 // Check if a string is a keyword
 bool isKeyword(const string &s) {
-    set<string> keywords = {"int", "float", "double", "char", "string", "bool", "if", "else", "for", "while","elseif", "do", "return", "break", "continue", "switch", "case", "default", "void", "main"};
+    set<string> keywords = {"int", "float", "double", "char", "string", "bool", "if", "else", "for", "while","elseif", "do", "return", "break", "continue", "switch", "case", "default", "void", "main", "false", "true"};
     return keywords.find(s) != keywords.end();
 }
 
